@@ -21,7 +21,7 @@ const b0 = document.querySelector('#b0');
 color0.addEventListener("click", (e) => {
     const color = e.target.className.replace("box ", "");
     
-    // log statement 00
+    console.log(color); 
     b0.className = `band ${color}`;
     bands.color1 = color;
     answer.innerText=getResistorOhms(bands);
@@ -34,7 +34,7 @@ const b1 = document.querySelector('#b1');
 color1.addEventListener("click", (e) => {
     const color = e.target.className.replace("box ", "");
     
-    // log statement 01
+    console.log(color);
     b1.className = `band ${color}`;
     bands.color2 = color;
     answer.innerText=getResistorOhms(bands);
@@ -47,7 +47,7 @@ const b2 = document.querySelector('#b2');
 color2.addEventListener("click", (e) => {
     const color = e.target.className.replace("box ", "");
     
-    // log statement 02
+    console.log(color);
     b2.className = `band ${color}`;
     bands.multiiplier = color;
     answer.innerText = getResistorOhms(bands);
@@ -60,7 +60,7 @@ const b3 = document.querySelector('#b3');
 color3.addEventListener("click", (e) => {
     const color = e.target.className.replace("box ", "");
     
-    // log statement 03
+    console.log(color);
     b3.className = `band ${color}`;
     bands.tolerance = color;
     answer.innerText = getResistorOhms(bands);
