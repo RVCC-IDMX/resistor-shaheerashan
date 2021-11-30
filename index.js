@@ -9,7 +9,7 @@ const BandThreeColor = document.querySelector('#band3');*/
 const bands = {
     color1: 'red',   
     color2: 'green',
-    multiiplier: 'violet',
+    multiplier: 'violet',
     tolerance: 'gold' 
 };
 
