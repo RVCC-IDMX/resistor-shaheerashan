@@ -49,7 +49,7 @@ color2.addEventListener("click", (e) => {
     
     console.log(color);
     b2.className = `band ${color}`;
-    bands.multiiplier = color;
+    bands.multiplier = color;
     answer.innerText = getResistorOhms(bands);
   });
 
